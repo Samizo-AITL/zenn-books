@@ -8,15 +8,15 @@ topics:
 published: false
 
 chapters:
-  - 01_classical
-  - 02_modern
-  - 03_digital
-  - 04_adaptive
-  - 05_practical
-  - 06_nn_control
-  - 07_rl_control
-  - 08_data_driven
-  - 09_llm_hybrid
-  - 10_pendulum
-  - 11_matlab_tools
-  - 12_soc_designkit
+  - 01_classical.md
+  - 02_modern.md
+  - 03_adaptive.md
+  - 04_digital.md
+  - 05_practical.md
+  - 06_nn_control.md
+  - 07_rl_control.md
+  - 08_data_driven.md
+  - 09_llm_hybrid.md
+  - 10_pendulum.md
+  - 11_matlab_tools.md
+  - 12_soc_designkit.md
