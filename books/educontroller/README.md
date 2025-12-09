@@ -59,6 +59,8 @@ chapters:
 
 ```
 
+---
+
 # 📖 EduController — 各章の概要
 
 本書「EduController」は、古典制御から AI 制御までを体系的に整理した統合制御工学テキストです。  
