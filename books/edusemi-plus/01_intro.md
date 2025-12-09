@@ -1,7 +1,10 @@
+---
+title: "イントロダクション"
+---
+
 # EduSemi-Plus — Introduction
 
-この教材 **EduSemi-Plus** は、  
-半導体技術と Python / 制御 / AI を横断的に学ぶための実践的な教材です。
+この教材 **EduSemi-Plus** は、半導体技術と Python / 制御 / AI を横断的に学ぶための実践的な教材です。
 
 ---
 
@@ -15,5 +18,5 @@
 ---
 
 ## 著者
-Samizo-AITL  
+Samizo-AITL
 AI × 制御 × 半導体 技術教育プロジェクト
