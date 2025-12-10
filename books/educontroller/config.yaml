@@ -8,6 +8,7 @@ topics:
 published: false
 
 chapters:
+  - README.md
   - 01_classical.md
   - 02_modern.md
   - 03_adaptive.md
@@ -19,4 +20,4 @@ chapters:
   - 09_llm_hybrid.md
   - 10_pendulum.md
   - 11_matlab_tools.md
-  - 12_soc_designkit.md
+  - 12_Soc_Designkit_by_ChatGPT.md
