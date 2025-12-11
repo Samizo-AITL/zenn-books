@@ -1,5 +1,5 @@
 ---
-title: 特別編 第1章　先端ノード技術（FinFET、GAA、CFET） 
+title: 特別編　第1章　先端ノード技術（FinFET、GAA、CFET） 
 ---
 
 ---
