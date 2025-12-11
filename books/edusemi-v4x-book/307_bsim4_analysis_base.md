@@ -1,5 +1,5 @@
 ---
-title: "🛠 第7章: BSIM4 MOS特性解析基盤 "
+title: 実践編　第7章　BSIM4 MOS特性解析基盤
 ---
 
 ---
