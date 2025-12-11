@@ -9,7 +9,7 @@ zenn-books/
 ├ books/
 │ ├ educontroller/
 │ ├ edusemi-v4x/
-│ └ edusemi-plus/
+│ 
 └ README.md
 
 ```
@@ -27,13 +27,6 @@ zenn-books/
 半導体デバイス・プロセス・設計・物性の基礎理論をまとめた教材。
 
 📂 フォルダ：`books/edusemi-v4x`
-
----
-
-### 3. **EduSemi-Plus**
-半導体応用技術・地政学・AI時代の製造戦略など応用分野をまとめた教材。
-
-📂 フォルダ：`books/edusemi-plus`
 
 ---
 
