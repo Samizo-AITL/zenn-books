@@ -1,5 +1,5 @@
 ---
-title: 特別編 第6章　SystemDK with AITL 論文公開（Final Chapter）
+title: 特別編　第6章　SystemDK with AITL 論文公開（Final Chapter）
 ---
 
 ---
