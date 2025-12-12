@@ -129,7 +129,7 @@ KLayoutを起動しなくても、
 
 `1_overview.png`：全体配置
 
-<p align="center">
+<p align="cente">
   <img
     src="https://raw.githubusercontent.com/Samizo-AITL/SemiDevKit/main/openlane/openlane-superstable/spm_min_counter/results/1_overview.png"
     alt="OpenLane superstable spm_min_counter layout overview"
