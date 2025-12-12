@@ -1,8 +1,8 @@
 ---
-title: "AITL Silicon Pathway：Python → ASIC への制御アーキテクチャ入門（Chapter1）"
+title: "AITL Silicon Pathway 入門：Chapter 1（Python Baseline Model）"
 emoji: "🚀"
-type: "article"
-topics: ["asic", "python", "control", "pid", "fsm", "verilog", "openlane"]
+type: "tech"
+topics: ["aitl", "python", "control", "pid", "fsm", "asic"]
 published: true
 ---
 
