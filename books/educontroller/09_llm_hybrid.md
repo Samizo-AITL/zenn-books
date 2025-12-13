@@ -9,6 +9,14 @@ title: "LLMハイブリッド制御 / LLM-Hybrid Control"
 
 ---
 
+## 🔗 公式リンク | *Official Links*
+
+| 言語 / Language | GitHub Pages 🌐 | GitHub 💻 |
+|-----------------|----------------|-----------|
+| 🇯🇵 日本語 / *Japanese* | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語版-brightgreen?logo=github)](https://samizo-aitl.github.io/EduController/part09_llm_hybrid/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語版-blue?logo=github)](https://github.com/Samizo-AITL/EduController/tree/main/part09_llm_hybrid) |
+
+---
+
 本章は **教育・研究用の構想段階** の内容です。  
 *This chapter is at a **conceptual / research stage**.*  
 
@@ -42,10 +50,10 @@ title: "LLMハイブリッド制御 / LLM-Hybrid Control"
 
 | **ファイル / File** | **内容 / Description** |
 |---------------------|-------------------------|
-| [01_fsm_pid_llm.md](theory/01_fsm_pid_llm.md) | FSM・PID・LLMによる三層制御構造の全体像 <br>*Overview of FSM × PID × LLM architecture* |
-| [02_scenario_control.md](theory/02_scenario_control.md) | シナリオ制御と状態モード切替の設計 <br>*Scenario-based control and state switching design* |
-| [03_exception_handling.md](theory/03_exception_handling.md) | LLMを用いた異常検出と例外対応 <br>*LLM-based anomaly detection and exception handling* |
-| [04_goal_reasoning.md](theory/04_goal_reasoning.md) | 目的推論と対話型制御の導入 <br>*Introduction to goal reasoning and dialogue-based control* |
+| [01_fsm_pid_llm.md](https://samizo-aitl.github.io/EduController/part09_llm_hybrid/theory/01_fsm_pid_llm.html) | FSM・PID・LLMによる三層制御構造の全体像 <br>*Overview of FSM × PID × LLM architecture* |
+| [02_scenario_control.md](https://samizo-aitl.github.io/EduController/part09_llm_hybrid/theory/02_scenario_control.html) | シナリオ制御と状態モード切替の設計 <br>*Scenario-based control and state switching design* |
+| [03_exception_handling.md](https://samizo-aitl.github.io/EduController/part09_llm_hybrid/theory/03_exception_handling.html) | LLMを用いた異常検出と例外対応 <br>*LLM-based anomaly detection and exception handling* |
+| [04_goal_reasoning.md](https://samizo-aitl.github.io/EduController/part09_llm_hybrid/theory/04_goal_reasoning.html) | 目的推論と対話型制御の導入 <br>*Introduction to goal reasoning and dialogue-based control* |
 
 ---
 
@@ -53,9 +61,9 @@ title: "LLMハイブリッド制御 / LLM-Hybrid Control"
 
 | **ファイル / File** | **役割 / Function** |
 |----------------------|----------------------|
-| [fsm_pid_llm_sim.py](simulation/fsm_pid_llm_sim.py) | 三層制御統合シミュレーション（FSM × PID × LLM） <br>*Integrated simulation of FSM × PID × LLM* |
-| [goal_reasoning_agent.py](simulation/goal_reasoning_agent.py) | LLMベースの目的推論エージェントクラス <br>*LLM-based goal reasoning agent* |
-| [hybrid_control_demo.ipynb](notebooks/hybrid_control_demo.ipynb) | Notebook可視化デモ（予定） <br>*Planned notebook visualization demo* |
+| [fsm_pid_llm_sim.py](https://samizo-aitl.github.io/EduController/part09_llm_hybrid/simulation/fsm_pid_llm_sim.py) | 三層制御統合シミュレーション（FSM × PID × LLM） <br>*Integrated simulation of FSM × PID × LLM* |
+| [goal_reasoning_agent.py](https://samizo-aitl.github.io/EduController/part09_llm_hybrid/simulation/goal_reasoning_agent.py) | LLMベースの目的推論エージェントクラス <br>*LLM-based goal reasoning agent* |
+| [hybrid_control_demo.ipynb](https://samizo-aitl.github.io/EduController/part09_llm_hybrid/notebooks/hybrid_control_demo.ipynb) | Notebook可視化デモ（予定） <br>*Planned notebook visualization demo* |
 
 > 💡 **特長 / Highlights**  
 > - センサ入力、PID制御、FSM遷移、LLM出力を可視化可能  
@@ -117,7 +125,7 @@ graph TD
 
 ## 📑 **Appendix / Expert Notes**
 
-- [appendix_expert.md](appendix_expert.md)  
+- [appendix_expert.md](https://samizo-aitl.github.io/EduController/part09_llm_hybrid/appendix_expert.html)  
   *専門家向け補足資料。制御工学とAIの接点をより深掘りした解説。*  
   *Expert supplement: deeper exploration of control engineering × AI integration.*
 
@@ -125,11 +133,11 @@ graph TD
 
 ## 🛠 **実行環境ファイル / Execution Environment Files**
 
-- [requirements.txt](requirements.txt)  
+- [requirements.txt](https://samizo-aitl.github.io/EduController/part09_llm_hybrid/requirements.txt)  
   *必要最小限の依存関係 / Minimal dependencies*  
-- [Makefile](Makefile)  
+- [Makefile](https://samizo-aitl.github.io/EduController/part09_llm_hybrid/Makefile)  
   *シミュレーション・デモ実行用コマンド / Commands for running simulations and demos*  
-- [.gitignore](.gitignore)  
+- [.gitignore](https://samizo-aitl.github.io/EduController/part09_llm_hybrid/.gitignore)  
   *不要ファイルをリポジトリから除外 / Ignore unnecessary files*
 
 ---
@@ -193,6 +201,8 @@ graph TD
 **⬅️ [前章 / Previous Chapter](../part08_data_driven/index.md)**  
 **[次章 / Next Chapter ➡️➡️](../part10_pendulum/index.md)**  
 **🏠 [トップページ / Back to Home](../index.md)**
+
+
 
 
 
