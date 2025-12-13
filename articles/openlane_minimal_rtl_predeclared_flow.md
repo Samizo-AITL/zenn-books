@@ -22,7 +22,7 @@ EDA フローの紹介記事を見ていると、
 > **最小限の自作RTLを「事前に宣言」した状態で OpenLane superstable を流し、  
 > RTL → GDS まで本当に完走するのか**
 
-を検証してみました。
+を検証しました。
 
 ---
 
@@ -75,15 +75,11 @@ EDA フローの紹介記事を見ていると、
 | 機能 | フリーランニング・カウンタ |
 | FSM | なし |
 | クロック | 単一 |
-| リセット | 同期・Low active |
+| リセット | なし（simulation-only 初期化） |
 | マクロ | 使用しない |
 
-RTL は以下です。
-
-- `rtl/spm_min_counter.v`
-
-「この程度のRTLでも OpenLane は最後まで流れるのか？」  
-を確認するための構成です。
+RTL：  
+`rtl/spm_min_counter.v`
 
 ---
 
@@ -95,178 +91,68 @@ RTL は以下です。
 | Core utilization | 30% |
 | Aspect ratio | 1.0 |
 
-設定ファイル：
-
-- `openlane/config.tcl`
-
-**実行後に制約を調整することはしていません。**
+設定ファイル：  
+`openlane/config.tcl`
 
 ---
 
 ## RTLシミュレーション（テストベンチ）
 
-物理設計とは別に、  
-**論理確認用の最小テストベンチ**も用意しています。
-
 ```
 spm_min_counter/
 ├─ README.md
-│
-├─ rtl/                         # 設計RTL（OpenLane用・非改変）
-│  └─ spm_min_counter.v
-│
-├─ sim/                         # 論理シミュレーション（追加）
-│  ├─ tb_spm_min_counter.v      # テストベンチ
-│  ├─ run.sh                    # iverilog + GTKWave 実行スクリプト
-│  └─ wave/                     # VCD 出力（生成物）
-│     └─ spm_min_counter.vcd
-│
-├─ openlane/                    # OpenLane 設定
-│  └─ config.tcl
-│
-├─ runs/                        # OpenLane 実行結果（自動生成）
-│  └─ RUN_YYYY.MM.DD_HH.MM.SS/
-│     ├─ logs/
-│     ├─ reports/
-│     ├─ results/
-│     │  └─ spm_min_counter.gds
-│     ├─ tmp/
-│     ├─ cmds.log
-│     ├─ config.tcl
-│     ├─ openlane.log
-│     ├─ warnings.log
-│     └─ runtime.yaml
-│
-├─ results/                     # 教材用に抜き出した成果物
-│  ├─ spm_min_counter.gds
-│  ├─ 1_overview.png
-│  ├─ 2_full.png
-│  ├─ 3_metal.png
-│  ├─ 4_cts_clock.png
-│  ├─ 5_pnd.png
-│  ├─ 6_cell_density.png
-│  ├─ 7_min_rtl.png
-│  └─ gtkwave.png
-│
-└─ run_log/                     # 実行サマリ（教材参照用）
-   └─ flow_summary.md
-
+├─ rtl/
+├─ sim/
+│  ├─ tb_spm_min_counter.v
+│  ├─ run.sh
+│  └─ wave/
+├─ openlane/
+├─ runs/
+├─ results/
+└─ run_log/
 ```
 
-### テストベンチの方針
+### テストベンチ方針
 
-- RTL は **OpenLane用をそのまま使用**
-- reset を増やすなどの **都合の良い改変はしない**
-- シミュレーションでは `force / release` により
-  **内部レジスタの初期化のみを行う**
-
-これは、
-
-> 論理確認と物理設計を混ぜない
-
-ための意図的な設計です。
+- RTL 非改変
+- reset 追加なし
+- simulation-only 初期化のみ
 
 ---
 
-## GTKWave による波形確認
-
-GTKWave で確認した波形が以下です。
-
-- `clk`：100MHz でトグル
-- 内部レジスタ `cnt[23:0]`：クロック立上りごとにインクリメント
-- 初期 X 状態が解消されていることを確認
+## GTKWave 波形
 
 <p align="center">
   <img
     src="https://raw.githubusercontent.com/Samizo-AITL/SemiDevKit/main/openlane/openlane-superstable/spm_min_counter/results/gtkwave.png"
-    alt="GTKWave waveform spm_min_counter"
-    style="width:80%; height:auto;"
+    style="width:80%;"
   >
 </p>
-
-ここで **論理として正しく動作していること**を確認してから  
-OpenLane に流しています。
 
 ---
 
 ## OpenLane 実行結果
 
-結果は以下の通りです。
-
-- RTL → GDS：✅ 完走
-- CTS：問題なし
-- ルーティング：致命的な詰まりなし
-- DRC / LVS：OpenLane 標準チェックをパス
-
-成果物：
-
-- GDS  
-  `results/spm_min_counter.gds`
-- 実行サマリ  
-  `run_log/flow_summary.md`
+- RTL → GDS 完走
+- DRC / LVS Pass
 
 ---
 
-## レイアウトの見え方（KLayout）
-
-KLayout での結果を **PNG として保存**しています。
-
-- `1_overview.png`：全体配置
-- `3_metal.png`：配線
-- `4_cts_clock.png`：クロック
-- `5_pnd.png`：電源
-- `6_cell_density.png`：セル密度
-- `7_min_rtl.png`：RTL対応
-
-`1_overview.png`（全体配置）：
+## KLayout レイアウト
 
 <p align="center">
   <img
     src="https://raw.githubusercontent.com/Samizo-AITL/SemiDevKit/main/openlane/openlane-superstable/spm_min_counter/results/1_overview.png"
-    alt="OpenLane superstable spm_min_counter layout overview"
-    style="width:80%; height:auto;"
+    style="width:80%;"
   >
 </p>
-
-KLayout を起動しなくても、  
-配置・電源・密度の雰囲気が把握できるようにしています。
-
----
-
-## 何が分かったか
-
-今回の検証で言えることは、とてもシンプルです。
-
-- OpenLane superstable は  
-  **自作RTL・最小構成でも RTL→GDS を完走できる**
-- 「チューニングしないと流れない」という前提は  
-  **少なくともこの条件では不要**
-- この設計は  
-  **今後の比較実験の基準点（baseline）**として使える
-
----
-
-## あえてやらなかったこと
-
-今回は、次のことを **意図的にやっていません**。
-
-- クロックを速くする
-- FSMを入れる
-- データ幅を広げる
-- 制約を調整する
-
-それらは **次の検証テーマ**です。
 
 ---
 
 ## まとめ
 
-- 「最小RTLを事前宣言して流す」ことで、
-  OpenLane の成立性を客観的に確認できた
-- 成功例としてではなく、
-  **判断基準としての設計**を残せた
-- あとはこの基準点から、
-  条件を1つずつ変えていけばよい
+本検証により、OpenLane superstable は  
+**最小RTLでも事前宣言条件下で RTL→GDS を完走可能**であることを確認しました。
 
 ---
 
@@ -277,4 +163,3 @@ KLayout を起動しなくても、
 
 - GitHub Repository  
   https://github.com/Samizo-AITL/SemiDevKit/tree/main/openlane/openlane-superstable/spm_min_counter
-
