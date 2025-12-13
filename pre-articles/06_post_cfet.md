@@ -160,3 +160,22 @@ Post-CFET の時代は、
 今後も設計・製造・教育のすべてに突きつけられ続けます。
 
 ---
+
+## 参考文献・関連リンク
+
+本記事の内容は、以下の教材・公開リポジトリ構成を前提として整理されています。
+
+### 📘 Edusemi-v4x｜先端ノード技術（FinFET・GAA・CFET）
+
+- **GitHub Pages（公開教材・日本語）**  
+  👉 https://samizo-aitl.github.io/Edusemi-v4x/f_chapter1_finfet_gaa/
+
+- **GitHub（ソース管理・Markdown原稿）**  
+  👉 https://github.com/Samizo-AITL/Edusemi-v4x/tree/main/f_chapter1_finfet_gaa
+
+### 📚 関連章（構造転換の位置づけ）
+
+- Planar MOSFET → FinFET → GAA → CFET という  
+  **「電界制御構造の進化」**を体系的に解説した特別編 第1章に相当します。
+
+---
