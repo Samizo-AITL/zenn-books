@@ -6,7 +6,7 @@ topics: ["OpenLane", "SKY130", "EDA", "半導体", "VLSI"]
 published: true
 ---
 
-## はじめに
+## はじめに　
 
 OpenLane を触っていると、こんな疑問が出てきます。
 
