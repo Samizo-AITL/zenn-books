@@ -6,6 +6,14 @@ title: "現代制御理論 / Modern Control Theory"
 
 ---
 
+## 🔗 公式リンク | *Official Links*
+
+| 言語 / Language | GitHub Pages 🌐 | GitHub 💻 |
+|-----------------|----------------|-----------|
+| 🇯🇵 日本語 / *Japanese* | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語版-brightgreen?logo=github)](https://samizo-aitl.github.io/EduController/part02_modern/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語版-blue?logo=github)](https://github.com/Samizo-AITL/EduController/tree/main/part02_modern)
+
+---
+
 本章では、**状態空間表現**を基盤としたモダン制御理論を学びます。  
 **可制御性・可観測性**を前提とし、**極配置**による状態フィードバック、**オブザーバ（状態推定器）**設計までを扱います。
 
@@ -108,4 +116,3 @@ Covers the basics of PID control, frequency response analysis using Bode plots, 
 Covers adaptive control (MRAC) and robust control methods (H∞, L1) designed to handle parameter variations and disturbances.
 
 **🏠 [トップページ / Back to Home](https://samizo-aitl.github.io/EduController/)**
-
