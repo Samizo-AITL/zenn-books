@@ -4,6 +4,16 @@ title: "適応制御 / Adaptive Control"
 
 # 🔄 Part 03: 適応制御・ロバスト制御 / Adaptive & Robust Control
 
+---
+
+## 🔗 公式リンク | *Official Links*
+
+| 言語 / Language | GitHub Pages 🌐 | GitHub 💻 |
+|-----------------|----------------|-----------|
+| 🇯🇵 日本語 / *Japanese* | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語版-brightgreen?logo=github)](https://samizo-aitl.github.io/EduController/part03_adaptive/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語版-blue?logo=github)](https://github.com/Samizo-AITL/EduController/tree/main/part03_adaptive)
+
+---
+
 本章では、制御対象のパラメータ変動・モデリング誤差に対応する  
 **適応制御**と**ロバスト制御**について、**理論と実装の両面**から学びます。  
 また、FSM×PID×LLMで構成される **AITL-H** における「**理性層**」の柔軟化技術としても位置づけられます。
@@ -106,4 +116,3 @@ Covers state-space modeling, optimal regulator (LQR), and estimation techniques 
 Covers the basics of digital control, Z-transform, and DSP implementation for discrete-time systems.
 
 **🏠 [トップページ / Back to Home](https://samizo-aitl.github.io/EduController/)**
-
