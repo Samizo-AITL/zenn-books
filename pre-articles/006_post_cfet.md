@@ -1,5 +1,5 @@
 ---
-title: "【FN】Post-CFET：CFETの次はどこへ向かうのか（〜2040年の射程）"
+title: "【FN】Post-CFET：2040年までの次世代トランジスタ像"
 emoji: "🔭"
 type: "tech"
 topics: ["半導体", "CFET", "ポストCMOS", "デバイスロードマップ"]
