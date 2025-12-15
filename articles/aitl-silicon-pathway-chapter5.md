@@ -1,5 +1,5 @@
 ---
-title: "【AITL】AITL Silicon Pathway Chapter5：FSM 正しさを“動く検証”に落とす"
+title: "【AITL】Silicon Pathway Ch5：FSM正しさの動的検証"
 emoji: "🧪"
 type: "tech"
 topics: ["fsm", "verilog", "verification", "assertion"]
