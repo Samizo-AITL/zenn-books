@@ -1,20 +1,25 @@
-title: "EduController"
-summary: "古典・現代・デジタル・適応・AI制御まで体系的に学べる統合教材"
+title: "Production Process for Mechanical Products"
+summary: "Creo設計から量産（MP）までを網羅するメカ系製品化プロセス実践書"
 topics:
-  - control
-  - pid
-  - robotics
+  - mechanical_design
+  - creo
+  - drawing
+  - bom
+  - manufacturing
+  - mass_production
+  - design_review
   - engineering
+
 published: false
 
 chapters:
-  - 01_classical.md
-  - 02_modern.md
-  - 03_adaptive.md
-  - 04_digital.md
-  - 05_practical.md
-  - 06_nn_control.md
-  - 07_rl_control.md
-  - 08_data_driven.md
-  - 09_llm_hybrid.md
-  - 10_pendulum.md
+  - 00_overview.md
+  - 01_creo_modeling.md
+  - 02_drawing_creation.md
+  - 03_prototyping.md
+  - 04_measurement_report.md
+  - 05_production_drawing.md
+  - 06_bom_generation.md
+  - 07_design_review.md
+  - 08_mp_guideline.md
+  - 09_production_process_flow.md
