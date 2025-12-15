@@ -1,3 +1,7 @@
+---
+title: "01_creo_modeling"
+---
+
 # 01_creo_modeling
 
 **パラメトリック設計のためのCreoモデリング入門**  
