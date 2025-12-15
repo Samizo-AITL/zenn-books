@@ -1,5 +1,5 @@
 ---
-title: "【AITL】FSM制御を試したが、効果が見られなかった事例"
+title: "【AITL】FSM制御が効かなかった実例"
 emoji: "🧊"
 type: "tech"
 topics: ["制御", "FSM", "PID"]
