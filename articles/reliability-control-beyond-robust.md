@@ -1,5 +1,5 @@
 ---
-title: "Robust Control の次へ ― Reliability Control という設計思想"
+title: "【AITL】Robust Control の次へ ― Reliability Control という設計思想"
 emoji: "🛠️"
 type: "tech"
 topics: ["制御工学", "PID", "ロバスト制御", "信頼性", "AITL"]
