@@ -1,5 +1,5 @@
 ---
-title: "AITL Silicon Pathway 入門：Chapter 1（Python Baseline Model）"
+title: "【AITL】AITL Silicon Pathway 入門：Chapter 1（Python Baseline Model）"
 emoji: "🚀"
 type: "tech"
 topics: ["aitl", "python", "control", "pid", "fsm", "asic"]
