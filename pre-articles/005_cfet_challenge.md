@@ -1,5 +1,5 @@
 ---
-title: "GAA の課題と CFET：次はなぜ上下方向なのか"
+title: "【FN】GAA の課題と CFET：次はなぜ上下方向なのか"
 emoji: "🏗️"
 type: "tech"
 topics: ["CFET", "GAA", "次世代半導体"]
