@@ -1,5 +1,5 @@
 ---
-title: "PZT はなぜ強すぎるのか：バイオ用途で壊れる精密"
+title: "【IJ】PZT はなぜ強すぎるのか：バイオ用途で壊れる精密"
 emoji: "🧬"
 type: "tech"
 topics: ["MEMS", "PZT", "バイオ", "精密工学"]
