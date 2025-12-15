@@ -1,5 +1,5 @@
 ---
-title: "【AITL】PID制御は思った以上に完成されている：AITLを実装して分かったこと"
+title: "【AITL】PID制御は想像以上に完成されている"
 emoji: "⚙️"
 type: "tech"
 topics: ["制御工学", "PID", "AI", "LLM", "ロボティクス"]
