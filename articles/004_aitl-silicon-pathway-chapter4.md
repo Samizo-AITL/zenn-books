@@ -3,7 +3,6 @@ title: "【AITL】Silicon Pathway Ch4：FSM正しさの形式保証（Invariant�
 emoji: "🧾"
 type: "tech"
 topics: ["verilog", "formal", "fsm", "asic", "aitl"]
-published: false
 ---
 
 # Chapter4：動いた／合成できた、の次へ
