@@ -3,7 +3,6 @@ title: "【IJ】静電MEMSが成立する理由：Ethical Precision設計"
 emoji: "⚡"
 type: "tech"
 topics: ["MEMS", "静電駆動", "Ethical Precision", "デバイス設計"]
-published: false
 ---
 
 ## はじめに
