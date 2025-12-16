@@ -3,7 +3,6 @@ title: "【AITL】Silicon Pathway Ch5：FSM正しさの動的検証"
 emoji: "🧪"
 type: "tech"
 topics: ["fsm", "verilog", "verification", "assertion"]
-published: false
 ---
 
 # Chapter5 は作業章
