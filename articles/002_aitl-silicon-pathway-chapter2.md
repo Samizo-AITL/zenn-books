@@ -3,7 +3,6 @@ title: "【AITL】AITL Silicon Pathway #2：FSM を Python から Verilog RTL �
 emoji: "🧠"
 type: "tech"
 topics: ["ASIC", "Verilog", "FSM", "OpenLane", "制御"]
-published: true
 ---
 
 # AITL Silicon Pathway #2  
