@@ -3,7 +3,6 @@ title: "【OpenLane】OpenLaneで制御ASICをRTLからGDSまで作ると何が�
 emoji: "🧠"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["OpenLane", "ASIC", "RTL", "制御工学", "SKY130"]
-published: true
 ---
 
 # OpenLaneで制御ASICをRTLからGDSまで作ると何が分かるか
