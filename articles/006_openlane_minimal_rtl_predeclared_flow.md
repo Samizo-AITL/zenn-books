@@ -3,7 +3,6 @@ title: "【OpenLane】OpenLane superstableを「最小RTL→GDS」で事前宣�
 emoji: "🧩"
 type: "tech"
 topics: ["OpenLane", "SKY130", "EDA", "半導体", "VLSI"]
-published: true
 ---
 
 ## はじめに　
