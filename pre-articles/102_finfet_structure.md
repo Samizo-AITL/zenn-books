@@ -3,7 +3,6 @@ title: "【FN】FinFET 構造：形状で電界制御を取り戻す"
 emoji: "📐"
 type: "tech"
 topics: ["FinFET", "MOSFET", "デバイス構造"]
-published: false
 ---
 
 ## FinFET の登場背景
