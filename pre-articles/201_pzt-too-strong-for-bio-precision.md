@@ -3,7 +3,6 @@ title: "【IJ】PZTはなぜ強すぎるのか：バイオ用途の限界"
 emoji: "🧬"
 type: "tech"
 topics: ["MEMS", "PZT", "バイオ", "精密工学"]
-published: false
 ---
 
 ## はじめに
