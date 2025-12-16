@@ -3,7 +3,6 @@ title: "【Career】薄膜ピエゾはどこから来たのか ― FeRAM起源�
 emoji: "🧭"
 type: "career"
 topics: ["半導体", "MEMS", "圧電", "材料", "キャリア"]
-published: false
 ---
 
 <!--
