@@ -3,7 +3,6 @@ title: "【IJ】Ethical Precision：壊さない精密の設計哲学"
 emoji: "🧭"
 type: "tech"
 topics: ["Ethical Precision", "設計思想", "MEMS", "ポストCMOS"]
-published: false
 ---
 
 ## はじめに
