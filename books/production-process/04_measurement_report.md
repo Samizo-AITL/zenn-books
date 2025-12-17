@@ -71,6 +71,20 @@ The results are used to identify discrepancies and suggest design improvements, 
 
 ---
 
+## 👤 **著作・ライセンス | Author & License**
+
+- ✍️ 著作 / Author: **三溝真一（Samizo-AITL）**  
+- 📜 ライセンス
+
+| Item | License | Description |
+|------|---------|-------------|
+| **Source Code** | MIT | Free to use, modify, redistribute |
+| **Text Materials** | CC BY 4.0 / CC BY-SA 4.0 | Attribution & share-alike rules |
+| **Figures & Diagrams** | CC BY-NC 4.0 | Non-commercial use |
+| **External References** | Original license applies | Cite properly |
+
+---
+
 ## 💬 コメント・共有 | Feedback
 
 測定方法の工夫、誤差要因の分析視点、改善サイクルの回し方など、ぜひ [Discussions](https://github.com/Samizo-AITL/EduMecha/discussions) にてご共有ください。
