@@ -167,3 +167,13 @@ Pause Refreshとn+/p-ジャンクションリークの関係を
 
 **Disturb Refresh**、**短チャネル効果**、  
 そして「低歩留まりでも量産を選んだ判断」を中心に整理します。
+
+---
+
+## 参考情報 / References
+
+- [0.25µm 64M DRAM (3rd Generation) Process Flow  
+  – EduSemi-Plus Archive (GitHub)](
+  https://github.com/Samizo-AITL/Edusemi-Plus/blob/main/archive/in1998/DRAM_Process_Flow_Full_en.md
+)
+
