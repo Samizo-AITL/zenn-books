@@ -70,6 +70,20 @@ Topics include slicing, print orientation, support structure planning, and desig
 
 ---
 
+## 👤 **著作・ライセンス | Author & License**
+
+- ✍️ 著作 / Author: **三溝真一（Samizo-AITL）**  
+- 📜 ライセンス
+
+| Item | License | Description |
+|------|---------|-------------|
+| **Source Code** | MIT | Free to use, modify, redistribute |
+| **Text Materials** | CC BY 4.0 / CC BY-SA 4.0 | Attribution & share-alike rules |
+| **Figures & Diagrams** | CC BY-NC 4.0 | Non-commercial use |
+| **External References** | Original license applies | Cite properly |
+
+---
+
 ## 💬 コメント・共有 | Feedback
 
 3Dプリンタや加工機での試作経験、スライス条件の工夫など、実体験に基づくコメントを歓迎します。  
