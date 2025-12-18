@@ -1,6 +1,5 @@
 ---
-layout: default
-title: 💼 Edusemi-Plus / Investment
+title: "Investment"
 ---
 
 ---
