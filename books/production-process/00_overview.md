@@ -1,5 +1,5 @@
 ---
-title: "概要　/　Overview"
+title: "Overview"
 ---
 
 ---
