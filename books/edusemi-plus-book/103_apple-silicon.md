@@ -1,6 +1,5 @@
 ---
-layout: default
-title: 🍎 Apple Silicon｜Apple Aチップの進化と戦略
+title: "Apple Silicon｜Apple Aチップの進化と戦略"
 ---
 
 ---
