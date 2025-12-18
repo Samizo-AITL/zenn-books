@@ -1,5 +1,5 @@
 ---
-title: "08_mp_guideline"
+title: "MP Guideline"
 ---
 
 # 08_mp_guideline
