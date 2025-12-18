@@ -10,7 +10,7 @@ topics:
   - design_review
   - engineering
 
-published: false
+published: true
 
 chapters:
   - 00_overview.md
