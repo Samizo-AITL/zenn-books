@@ -3,13 +3,16 @@ title: "【Rapidus】日本先端半導体復権の技術と課題"
 ---
 
 ---
-layout: default
-title: 📘 Rapidusと2nm技術の挑戦 / The Challenge of Rapidus and 2nm Technology
----
-
----
 
 # 📘 Rapidusと2nm技術の挑戦 / The Challenge of Rapidus and 2nm Technology
+
+---
+
+## 🔗 公式リンク / *Official Links*
+
+| 言語 / Language | GitHub Pages 🌐 | GitHub 💻 |
+|-----------------|----------------|-----------|
+| 🇯🇵 日本語 / *Japanese* | [![GitHub Pages JP](https://img.shields.io/badge/GitHub%20Pages-日本語版-brightgreen?logo=github)](https://samizo-aitl.github.io/Edusemi-Plus/rapidus/) | [![GitHub Repo JP](https://img.shields.io/badge/GitHub-日本語版-blue?logo=github)](https://github.com/Samizo-AITL/Edusemi-Plus/tree/main/rapidus) |
 
 ---
 
