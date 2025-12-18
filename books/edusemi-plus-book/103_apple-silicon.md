@@ -1,5 +1,5 @@
 ---
-title: "Apple Silicon｜Apple Aチップの進化と戦略"
+title: "【Apple Silicon】SoC垂直統合が変えた半導体設計"
 ---
 
 ---
