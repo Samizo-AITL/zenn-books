@@ -5,7 +5,7 @@ topics:
   - device
   - process
   - engineering
-published: false
+published: true
 
 chapters:
   - 101_materials.md
