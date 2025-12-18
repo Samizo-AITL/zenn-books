@@ -1,4 +1,8 @@
 ---
+title: "AIツール比較と使い分けガイド"
+---
+
+---
 layout: default
 title: AIツール比較と使い分けガイド（Edusemi-Plus版 / AI Tools Comparison & Usage Guide）
 ---
