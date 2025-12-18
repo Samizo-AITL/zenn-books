@@ -1,5 +1,5 @@
 ---
-title: "Quantum-Semiconductor｜次世代量子半導体の構造と展望"
+title: "【量子半導体】ポストCMOSデバイスの可能性"
 ---
 
 ---
