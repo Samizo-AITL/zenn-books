@@ -5,7 +5,7 @@ topics:
   - pid
   - robotics
   - engineering
-published: false
+published: true
 
 chapters:
   - 01_classical.md
