@@ -1,5 +1,5 @@
 ---
-title: "TSMC Insight"
+title: "【TSMC】最先端ファウンドリ戦略と技術支配"
 ---
 
 ---
