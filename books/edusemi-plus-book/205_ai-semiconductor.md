@@ -1,4 +1,8 @@
 ---
+title: " ai-semiconductor"
+---
+
+---
 layout: default
 title: 🤖 ai-semiconductor – Reading Semiconductors in the AI Era
 ---
