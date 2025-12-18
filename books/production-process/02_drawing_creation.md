@@ -1,5 +1,5 @@
 ---
-title: "02_drawing_creation"
+title: "Drawing Creation"
 ---
 
 # 02_drawing_creation
