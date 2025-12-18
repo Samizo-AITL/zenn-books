@@ -1,5 +1,5 @@
 ---
-title: "04_measurement_report"
+title: "Measurement Report"
 ---
 
 # 04_measurement_report
