@@ -1,14 +1,14 @@
 ---
 title: "【AITL】PID×FSM×人間設計で完結する信頼性制御の設計指針"
-author: "Samizo-AITL"
-date: 2025-12-19
-category: "AITL Control Design"
-tags:
-  - PID
-  - FSM
-  - Reliability
-  - Control Design
-  - Engineering Judgment
+emoji: "🧠"
+type: "tech"
+topics:
+  - pid
+  - fsm
+  - 制御工学
+  - 信頼性設計
+  - システム設計
+published: true
 ---
 
 # PID×FSM×人間設計で完結する信頼性制御の設計指針  
