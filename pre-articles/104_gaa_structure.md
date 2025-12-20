@@ -1,5 +1,5 @@
 ---
-title: "【FN】GAA 構造：電界制御の完成形"
+title: "【半導体】GAA 構造：電界制御の完成形"
 emoji: "🧱"
 type: "tech"
 topics: ["GAA", "ナノシート", "MOSFET"]
