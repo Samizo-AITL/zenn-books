@@ -1,5 +1,5 @@
 ---
-title: "【MEMS解析】軽量ROMベース解析ツール mems-ana の設計思想と全体像"
+title: "【MEMS】軽量ROMベース解析ツール mems-ana の設計思想と全体像"
 emoji: "📐"
 type: "tech"
 topics: ["MEMS", "解析", "ROM", "Python", "シミュレーション"]
