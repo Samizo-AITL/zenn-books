@@ -1,5 +1,5 @@
 ---
-title: "【FN】Planar MOSFETとSCE：微細化が行き詰まった理由"
+title: "【半導体】Planar MOSFETとSCE：微細化が行き詰まった理由"
 emoji: "📉"
 type: "tech"
 topics: ["半導体", "MOSFET", "SCE", "デバイス物理"]
