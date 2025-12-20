@@ -1,5 +1,5 @@
 ---
-title: "【MEMSモデリング】ROMで作る mems-ana_core の数式構造と設計ポリシー"
+title: "【MEMS】ROMで作る mems-ana_core の数式構造と設計ポリシー"
 emoji: "🧠"
 type: "tech"
 topics: ["MEMS", "ROM", "モデリング", "数式", "Python"]
