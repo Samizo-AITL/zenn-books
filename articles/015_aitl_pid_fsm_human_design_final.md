@@ -11,7 +11,7 @@ topics:
 published: true
 ---
 
-# PID×FSM×人間設計で完結する信頼性制御の設計指針  
+# PID×FSM×人間設計で完結する信頼性制御の設計指針   
 ―― AITL B-Type 制御・最終整理
 
 ## 1. このシリーズの到達点
