@@ -1,5 +1,5 @@
 ---
-title: "【IJ】800dpiが決まる理由：多物理制約による設計点"
+title: "【Inkjet】800dpiが決まる理由：多物理制約による設計点"
 emoji: "📐"
 type: "tech"
 topics: ["MEMS", "設計論", "多物理場", "インクジェット"]
