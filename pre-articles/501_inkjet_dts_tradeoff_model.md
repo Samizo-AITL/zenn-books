@@ -3,7 +3,7 @@ title: "【Inkjet】Inkjet DTS：ドロップ密度・速度・広がりの設�
 emoji: "🖨️"
 type: "tech"
 topics: ["inkjet", "設計", "トレードオフ", "モデリング", "DTS"]
-published: false
+published: true
 ---
 
 ## はじめに
