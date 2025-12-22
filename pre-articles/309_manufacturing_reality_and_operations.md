@@ -3,6 +3,7 @@ title: "【Career】ディスコン・緊急対応・BOM――製造メーカー
 emoji: "🏭"
 type: "idea"
 topics: ["キャリア", "製造業", "量産", "BOM", "BCP", "プロジェクト管理"]
+published: true
 ---
 
 ## はじめに ― 製品は「完成」してからが本番である
