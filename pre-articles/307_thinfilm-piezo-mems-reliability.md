@@ -3,6 +3,7 @@ title: "【Career】薄膜ピエゾMEMSが壊れやすい本当の理由 ― 表
 emoji: "🛠️"
 type: "career"
 topics: ["半導体", "MEMS", "圧電", "信頼性", "キャリア"]
+published: true
 ---
 
 # 薄膜ピエゾMEMSが壊れやすい本当の理由  
