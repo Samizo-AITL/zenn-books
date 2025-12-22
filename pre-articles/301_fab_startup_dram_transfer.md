@@ -8,6 +8,7 @@ topics:
   - process
   - yield
   - drams
+published: true
 ---
 
 ## 免責・取り扱い
