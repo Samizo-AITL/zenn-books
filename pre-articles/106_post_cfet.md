@@ -3,6 +3,7 @@ title: "【半導体】Post-CFET：2040年までの次世代トランジスタ�
 emoji: "🔭"
 type: "tech"
 topics: ["半導体", "CFET", "ポストCMOS", "デバイスロードマップ"]
+published: true
 ---
 
 ## はじめに
