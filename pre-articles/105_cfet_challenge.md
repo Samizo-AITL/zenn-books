@@ -3,6 +3,7 @@ title: "【半導体】GAAの課題とCFET：上下積層への必然"
 emoji: "🏗️"
 type: "tech"
 topics: ["CFET", "GAA", "次世代半導体"]
+published: true
 ---
 
 ## はじめに
