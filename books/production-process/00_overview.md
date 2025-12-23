@@ -11,7 +11,7 @@ title: "Overview"
 
 ---
 
-## 🔗 公式リンク | Official Links
+## 🔗 公式リンク | Official Links 
 
 | 言語 / Language | GitHub Pages 🌐 | GitHub 💻 |
 |-----------------|----------------|-----------|
