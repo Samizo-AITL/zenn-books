@@ -1,5 +1,5 @@
 ---
-title: "【設計判断】AIビデオは教材の主役になり得るかを検証して撤退した話"
+title: "【動画】AIビデオは教材の主役になり得るかを検証して撤退した話"
 emoji: "🎬"
 type: "tech"
 topics: ["ai", "education", "design", "prompt", "runway"]
