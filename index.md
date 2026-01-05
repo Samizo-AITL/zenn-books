@@ -1,3 +1,8 @@
+---
+title: "zenn-books"
+description: "zenn-books"
+---
+
 # 📚 zenn-books
 
 Zenn で公開する複数の書籍をまとめて管理するためのリポジトリです。  
