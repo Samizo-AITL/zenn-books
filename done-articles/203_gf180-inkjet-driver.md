@@ -75,7 +75,7 @@ HV_SW_UNIT は、
 これは GF180MCU において **DNWELL エンクロージャと基板分離が
 配列ピッチを最も厳しく制約する条件**を先に踏むためです。  
 単セルや 1×N 配列ではなく 4×2 とすることで、
-ガードリング共有や DNWELL 連続性を含む
+ガードリング共有や DNWELL 連続性を含む  
 **アレイ中心部の実効的な物理条件**を確認しています。
 
 ---
@@ -91,11 +91,7 @@ HV_SW_UNIT は、
 
 を持つ構成です。
 
-<img
-  src="https://samizo-aitl.github.io/gf180-inkjet-driver/docs/images/03_hv_unit_array_full_gds.png"
-  alt="HV_SW_UNIT Array – Independent DNWELL and Guard Ring"
-  width="80%"
-/>
+![HV_SW_UNIT Array – Independent DNWELL and Guard Ring](https://samizo-aitl.github.io/gf180-inkjet-driver/docs/images/03_hv_unit_array_full_gds.png)
 
 この時点で、
 
@@ -111,11 +107,7 @@ HV_SW_UNIT は、
 次に、**列単位で Guard Ring を共有**し、  
 冗長なガードリングを削減しました。
 
-<img
-  src="https://samizo-aitl.github.io/gf180-inkjet-driver/docs/images/04_hv_sw_unit_array_gr_shared_FIXED_gds.png"
-  alt="HV_SW_UNIT Array – Column-wise Guard Ring Sharing"
-  width="80%"
-/>
+![HV_SW_UNIT Array – Column-wise Guard Ring Sharing](https://samizo-aitl.github.io/gf180-inkjet-driver/docs/images/04_hv_sw_unit_array_gr_shared_FIXED_gds.png)
 
 結果：
 
@@ -133,17 +125,21 @@ HV_SW_UNIT は、
 
 という **最小構成**を評価しました。
 
-<img
-  src="https://samizo-aitl.github.io/gf180-inkjet-driver/docs/images/05_hv_sw_unit_array_gr_shared_clean_gds.png"
-  alt="HV_SW_UNIT Array – Guard Ring Clean Shared Configuration"
-  width="80%"
-/>
+![HV_SW_UNIT Array – Guard Ring Clean Shared Configuration](https://samizo-aitl.github.io/gf180-inkjet-driver/docs/images/05_hv_sw_unit_array_gr_shared_clean_gds.png)
 
 ここで初めて分かるのが：
 
 > **Guard Ring ではなく DNWELL が最終的な支配要因である**
 
 という事実です。
+
+---
+
+> ※補足  
+> 上記 3 つの図は外形的にはほぼ同一に見えますが、  
+> 差分は **Guard Ring の配置・共有方法と DNWELL の支配関係**にあります。  
+> 本検討はレイアウト形状の大幅変更ではなく、  
+> **どの構造が配列ピッチを本質的に制約しているかを切り分けるための比較**です。
 
 ---
 
