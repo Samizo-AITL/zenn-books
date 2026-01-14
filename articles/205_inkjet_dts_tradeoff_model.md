@@ -158,12 +158,3 @@ https://samizo-aitl.github.io/inkjet-dts/
 インクジェット技術を  
 「現象」ではなく「設計」として扱いたい人にとって、  
 このモデルが思考の足場になれば幸いです。
-
----
-
-## ライセンス
-
-- 文章・図表：CC BY 4.0  
-- コード：MIT License  
-
-© Samizo-AITL
