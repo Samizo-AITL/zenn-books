@@ -17,14 +17,11 @@ All materials are written and structured from the perspective of
 
 ---
 
-## 🌐 Links
+## 🔗 Links
 
-| Type | URL |
-|---|---|
-| 📖 Zenn (Author Page) | https://zenn.dev/samizo |
-| 🌍 GitHub Pages | https://samizo-aitl.github.io/zenn-books/ |
-| 💻 GitHub Repository | https://github.com/Samizo-AITL/zenn-books |
-| 🔙 Samizo-AITL Portal | https://samizo-aitl.github.io |
+| Language | GitHub Pages 🌐 | GitHub 💻 |
+|----------|----------------|-----------|
+| Japanese | [![GitHub Pages EN](https://img.shields.io/badge/GitHub%20Pages-Japanese-brightgreen?logo=github)](https://samizo-aitl.github.io/zenn-books/) | [![GitHub Repo EN](https://img.shields.io/badge/GitHub-Japanese-blue?logo=github)](https://github.com/Samizo-AITL/zenn-books/tree/main) |
 
 ---
 
