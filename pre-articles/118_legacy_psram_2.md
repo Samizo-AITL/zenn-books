@@ -1,5 +1,5 @@
 ---
-title: "PSRAMで何が起き、なぜ終わったのか ― Pause×Disturbの現実"
+title: "【半導体】PSRAMで何が起き、なぜ終わったのか ― Pause×Disturbの現実"
 emoji: "⚠️"
 type: "tech"
 topics: ["半導体", "PSRAM", "DRAM", "信頼性", "歩留まり"]
