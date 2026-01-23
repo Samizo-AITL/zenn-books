@@ -1,5 +1,5 @@
 ---
-title: "Legacy Technologyとは何か ― 半導体が物理に支配されていた時代の失敗記録"
+title: "【半導体】Legacy Technologyとは何か ― 半導体が物理に支配されていた時代の失敗記録"
 emoji: "🧭"
 type: "tech"
 topics: ["半導体", "技術史", "DRAM", "信頼性"]
