@@ -1,5 +1,5 @@
 ---
-title: "PSRAMは何を狙ったメモリだったのか ― DRAM流用という前提"
+title: "【半導体】PSRAMは何を狙ったメモリだったのか ― DRAM流用という前提"
 emoji: "🧩"
 type: "tech"
 topics: ["半導体", "PSRAM", "DRAM", "メモリ", "アーキテクチャ"]
