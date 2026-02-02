@@ -1,5 +1,5 @@
 ---
-title: "【HW】aitl-physical-reference v1：なぜ\"まだ制御しない\"のか"
+title: "【HardWare】aitl-physical-reference v1：なぜ\"まだ制御しない\"のか"
 emoji: "🧭"
 type: "tech"
 topics: ["hardware", "pcb", "kicad", "control", "aitl"]
