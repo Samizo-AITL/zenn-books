@@ -1,5 +1,5 @@
 ---
-title: "【HardWare】aitl-physical-reference：制御以前に、物理を固定する"
+title: "【Hardware】aitl-physical-reference：制御以前に、物理を固定する"
 emoji: "🧱"
 type: "tech"
 topics: ["hardware", "pcb", "kicad", "control", "aitl"]
