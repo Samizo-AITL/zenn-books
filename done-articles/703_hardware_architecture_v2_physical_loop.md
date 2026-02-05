@@ -1,5 +1,5 @@
 ---
-title: "【Hardware】v2 物理ループ参照 ― 制御の前に凍結すべき銅と電流"
+title: "【Hardware】aitl-physical-reference v2 物理ループ参照 ― 制御の前に凍結すべき銅と電流"
 emoji: "🟣"
 type: "tech"
 topics: ["hardware", "kicad", "aitl", "architecture", "pcb"]
