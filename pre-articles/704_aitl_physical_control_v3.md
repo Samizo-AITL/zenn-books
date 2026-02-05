@@ -1,5 +1,5 @@
 ---
-title: "【Hardware】v3 物理制御挿入参照 ― 凍結されたループに「触れてよい」唯一の点"
+title: "【Hardware】aitl-physical-reference v3 物理制御挿入参照 ― 凍結されたループに「触れてよい」唯一の点"
 emoji: "🔴"
 type: "tech"
 topics: ["hardware", "kicad", "aitl", "architecture", "control", "pcb"]
