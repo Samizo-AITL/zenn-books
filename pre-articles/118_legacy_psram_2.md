@@ -10,28 +10,29 @@ published: true
 
 前稿では、PSRAM が
 
-- DRAM セルを使い
-- 内部リフレッシュ制御によって
-- SRAM ライクに見せる
+- DRAM セルを使い  
+- 内部リフレッシュ制御によって  
+- SRAM ライクに見せる  
 
-という **構造と前提** の上に成り立っていたことを整理した。
+という **構造と前提** の上に成り立っていたことを整理しました。
 
 本稿では、その前提のもとで  
 **実際に何が起きたのか**、  
-そして **どのような判断が下されたのか** を記録する。
+そして **どのような判断が下されたのか** を記録します。
 
 ---
 
 ## PSRAMで顕在化した故障
 
 PSRAM で問題となった故障は、  
-大きく分けて二つだった。
+大きく分けて二つでした。
 
-- **Pause Refresh Fail**
+- **Pause Refresh Fail**  
 - **Disturb Refresh Fail**
 
-どちらも DRAM では既知の現象だが、  
-PSRAM では **使用条件によって同時に現れる** 点が決定的に異なっていた。
+どちらも DRAM では既知の現象ですが、  
+PSRAM では **使用条件によって同時に現れる** 点が  
+決定的に異なっていました。
 
 ---
 
@@ -43,64 +44,56 @@ PSRAM では、
 - 内部リフレッシュは間欠的  
 - 高温環境で使われる  
 
-という条件が重なりやすい。
+という条件が重なりやすくなります。
 
 その結果、
 
 > **DRAMでは顕在化しなかったリークが、  
 > そのまま保持失敗として現れる**
 
-という状況が生まれた。
+という状況が生まれました。
 
 これは、
 
 - 新しい物理現象  
 - 新しい欠陥  
 
-ではない。
+ではありません。
 
 **0.25µm DRAM で既に観測されていた  
-Pause Refresh 異常と同根** だった。
+Pause Refresh 異常と同根** の現象でした。
 
 ---
 
 ## Disturb Refresh Fail（PSRAM）
 
-もう一つの問題が **Disturb** である。
+もう一つの問題が **Disturb** です。
 
 PSRAM では、
 
 - 特定アドレスへのアクセスが集中し  
 - 別の領域が長時間アイドルになる  
 
-という **使用パターン** が日常的に発生する。
+という **使用パターン** が日常的に発生します。
 
 このとき、
 
 - 頻繁にトグルされるワードライン  
 - 長時間放置されるセル  
 
-が同一チップ内に共存する。
+が、同一チップ内に共存します。
 
 ---
 
 ## Disturb が発生する断面構造（参照図）
 
-ここで、PSRAM における Disturb を理解するための  
-**デバイス断面の物理像**を示す。
+PSRAM における Disturb を理解するための  
+**デバイス断面の物理像**を示します。
 
-<p align="center">
-  <img
-    src="https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/figs/disturb.png"
-    width="55%">
-</p>
+![Disturb mechanism in PSRAM](https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/figs/disturb.png)
 
-<p align="center">
-  <em>
-    図1：PSRAM（DRAMセル流用）における  
-    Disturb 発生時のリーク・電界集中断面（概念図）
-  </em>
-</p>
+*図1：PSRAM（DRAMセル流用）における  
+Disturb 発生時のリーク・電界集中断面（概念図）*
 
 この図が示しているのは、
 
@@ -108,47 +101,48 @@ PSRAM では、
 - セルMOSの短チャネル化による I<sub>off</sub> 増大  
 - 隣接セル拡散端・絶縁端でのリーク増幅  
 
-といった **既知の物理効果**である。
+といった **既知の物理効果**です。
 
 Disturb は、
 
 > **単発で壊す現象ではなく、  
 > 微小な劣化を時間的に蓄積する現象**
 
-として働く。
+として働きます。
 
 ---
 
 ## Pause × Disturb の結合
 
 重要なのは、  
-**Pause と Disturb は単独では致命的でなかった** ことだ。
+**Pause と Disturb は単独では致命的でなかった**  
+という点です。
 
 - Pause だけ  
 - Disturb だけ  
 
 では、  
-保証条件内では Fail は抑えられていた。
+保証条件内では Fail は抑えられていました。
 
 問題は、
 
 > **両者が時間軸で結合したとき**
 
-である。
+でした。
 
 - Disturb によってセル状態が削られ  
 - Pause によって回復機会が与えられず  
 - 高温によってリークが指数的に加速する  
 
-この連鎖で、  
-Fail は **境界的に** 増加した。
+この連鎖により、  
+Fail は **境界的に** 増加しました。
 
 ---
 
 ## 温度という境界条件
 
 PSRAM の Fail 挙動は、  
-**温度境界を越えた瞬間に変質**した。
+**温度境界を越えた瞬間に変質**しました。
 
 - 〜85℃：Fail ほぼゼロ  
 - 90℃（保証点）：条件付きで成立  
@@ -159,20 +153,20 @@ Fail は、
 - 徐々に増える  
 - 劣化していく  
 
-のではない。
+のではありません。
 
 > **ある条件を越えた瞬間に現れる**
 
-という **境界現象** だった。
+という **境界現象**でした。
 
 ---
 
 ## 歩留まり回復でできたこと／できなかったこと
 
-量産は止められなかった。
+量産は止められませんでした。
 
 そのため、  
-**短期で可能な対策** が取られた。
+**短期で可能な対策** が実施されました。
 
 ### 実施された対策
 
@@ -186,13 +180,13 @@ Fail は、
 - 初期歩留まり：約30%  
 - 回復後歩留まり：**70〜80%クラス**
 
-まで改善した。
+まで改善しました。
 
 ---
 
 ## それでも残った限界
 
-ただし、次の点は変わらなかった。
+ただし、次の点は変わりませんでした。
 
 - 高温マージンは極めて薄い  
 - 使用パターン依存が消えない  
@@ -203,15 +197,15 @@ Fail は、
 - 改善不足  
 - 実装ミス  
 
-ではない。
+ではありません。
 
-**構造的な限界**だった。
+**構造的な限界**でした。
 
 ---
 
 ## 下された判断
 
-最終的に下された判断は明確だった。
+最終的に下された判断は明確でした。
 
 > **技術的に成立しても、  
 > 長期に拡張できないものは続けない**
@@ -224,7 +218,7 @@ Fail は、
 
 > **PSRAM 路線からの撤退**
 
-が選択された。
+が選択されました。
 
 ---
 
@@ -238,7 +232,7 @@ PSRAM は、
 Pause × Disturb × 温度という  
 **既知の物理が、  
 使われ方によって結合した結果** が  
-限界を作った。
+限界を作りました。
 
 これは、
 
@@ -249,23 +243,16 @@ Pause × Disturb × 温度という
 
 > **前提条件が許容できる範囲を越えた**
 
-という記録である。
+という記録です。
 
 ---
 
 ## 🔗 一次情報（参照元）
 
-- Legacy Technology Archive  
-  https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/
-
-- PSRAM (2001) ケース  
-  https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/psram_2001/
-
-- Pause / Disturb in PSRAM  
-  https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/psram_2001/pause_disturb_psram/
-
-- Yield Recovery  
-  https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/psram_2001/yield_recovery/
+- [Legacy Technology Archive](https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/)  
+- [PSRAM (2001) ケース](https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/psram_2001/)  
+- [Pause / Disturb in PSRAM](https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/psram_2001/pause_disturb_psram/)  
+- [Yield Recovery](https://samizo-aitl.github.io/Edusemi-Plus/archive/legacy/psram_2001/yield_recovery/)
 
 ---
 
@@ -275,6 +262,6 @@ Pause × Disturb × 温度という
 - #1 DRAM 前編（現象）  
 - #2 DRAM 後編（物理）  
 - #3 PSRAM 前編（構造）  
-- #4 PSRAM 後編（故障と判断）
+- #4 PSRAM 後編（故障と判断）  
 
 以上で **全5本**。
