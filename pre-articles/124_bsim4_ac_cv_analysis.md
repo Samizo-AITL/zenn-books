@@ -1,5 +1,5 @@
 ---
-title: "【半導体】BSIM4のAC/CV解析 ― 寄生容量と周波数応答を正しく読む"
+title: "06. 【半導体】BSIM4のAC/CV解析 ― 寄生容量と周波数応答を正しく読む"
 emoji: "📐"
 type: "tech"
 topics: ["半導体", "BSIM4", "SPICE", "AC解析", "CV解析"]
