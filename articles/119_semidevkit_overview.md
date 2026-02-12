@@ -1,4 +1,4 @@
----
+--- 
 title: "【半導体】01. SemiDevKit全体像 ― TCADからSPICE・信頼性までを一本でつなぐ"
 emoji: "🧩"
 type: "tech"
