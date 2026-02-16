@@ -177,7 +177,7 @@ python run_hci_nmos.py
 
 ### ■ NMOS HCI：Vg–Id 劣化（Linear）
 
-<img src="https://samizo-aitl.github.io/SemiDevKit/assets/bsim4_analyzer_reliability/nmos_hci_vgid.png" width="80%">
+![NMOS HCI](https://samizo-aitl.github.io/SemiDevKit/assets/bsim4_analyzer_reliability/nmos_hci_vgid.png)
 
 👉 **gm 低下・オン電流減少**  
 👉 高速パスの遅延要因になる
@@ -186,7 +186,7 @@ python run_hci_nmos.py
 
 ### ■ NMOS HCI：ΔVtg vs Stress Time
 
-<img src="https://samizo-aitl.github.io/SemiDevKit/assets/bsim4_analyzer_reliability/hci_dvtg.png" width="80%">
+![NMOS HCI](https://samizo-aitl.github.io/SemiDevKit/assets/bsim4_analyzer_reliability/hci_dvtg.png)
 
 👉 初期劣化が支配的  
 👉 高電圧条件ほど劣化が急
