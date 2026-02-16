@@ -162,7 +162,7 @@ python run_nbti_pmos.py
 
 ### ■ PMOS NBTI：Vg–Id 劣化（Linear）
 
-<img src="https://samizo-aitl.github.io/SemiDevKit/assets/bsim4_analyzer_reliability/pmos_nbti_vgid.png" width="80%">
+![PMOS NBTI](https://samizo-aitl.github.io/SemiDevKit/assets/bsim4_analyzer_reliability/pmos_nbti_vgid.png)
 
 👉 **Vg–Id カーブが右にシフト**  
 👉 同一ゲート電圧で電流が出なくなる
@@ -171,7 +171,7 @@ python run_nbti_pmos.py
 
 ### ■ PMOS NBTI：ΔVtg vs Stress Time
 
-<img src="https://samizo-aitl.github.io/SemiDevKit/assets/bsim4_analyzer_reliability/nbit_dvtg.png" width="80%">
+![PMOS NBTI](https://samizo-aitl.github.io/SemiDevKit/assets/bsim4_analyzer_reliability/nbit_dvtg.png)
 
 👉 劣化は **時間のべき乗則** に従う  
 👉 初期劣化が特に支配的
