@@ -105,7 +105,7 @@ python run_vd_dim.py
 
 ### ■ Vg–Id（Lスイープ, NMOS）
 
-<img src="https://samizo-aitl.github.io/SemiDevKit/assets/bsim4_analyzer_dim/nmos_vgid.png" width="80%">
+![NMOS Vg-Id](https://samizo-aitl.github.io/SemiDevKit/assets/bsim4_analyzer_dim/nmos_vgid.png)
 
 👉 **短 L ほど Vth が下がり、リークが増える**  
 👉 gm の増加と制御性低下が同時に起きる
@@ -114,7 +114,7 @@ python run_vd_dim.py
 
 ### ■ Vd–Id（Lスイープ, NMOS）
 
-<img src="https://samizo-aitl.github.io/SemiDevKit/assets/bsim4_analyzer_dim/nmos_vdid.png" width="80%">
+![NMOS Vd-Id](https://samizo-aitl.github.io/SemiDevKit/assets/bsim4_analyzer_dim/nmos_vdid.png)
 
 👉 **飽和が甘くなり、Id が Vd に引きずられる**  
 👉 典型的な DIBL の兆候
