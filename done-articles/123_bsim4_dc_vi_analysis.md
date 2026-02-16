@@ -86,7 +86,7 @@ python run_vgid.py
 
 ### NMOS：$V_g$ – $I_d$ 特性（例）
 
-<img src="https://samizo-aitl.github.io/SemiDevKit/assets/bsim4_analyzer_dc/nmos_vgid.png" width="80%">
+![nMOS Vg–Id](https://samizo-aitl.github.io/SemiDevKit/assets/bsim4_analyzer_dc/nmos_vgid.png)
 
 横軸：ゲート電圧 $V_g$  
 縦軸：ドレイン電流 $I_d$
@@ -105,7 +105,7 @@ python run_vgid.py
 
 ### PMOS：$V_g$ – $I_d$ 特性
 
-<img src="https://samizo-aitl.github.io/SemiDevKit/assets/bsim4_analyzer_dc/pmos_vgid.png" width="80%">
+![PMOS Vg–Id](https://samizo-aitl.github.io/SemiDevKit/assets/bsim4_analyzer_dc/pmos_vgid.png)
 
 PMOS では SPICE 極性のままプロットされており、  
 温度変化による $|V_t|$ や移動度変化も確認できます。
@@ -125,7 +125,7 @@ python run_vdid.py
 
 ### NMOS：$V_d$–$I_d$ 特性（例）
 
-<img src="https://samizo-aitl.github.io/SemiDevKit/assets/bsim4_analyzer_dc/nmos_vdid.png" width="80%">
+![NMOS Vd–Id](https://samizo-aitl.github.io/SemiDevKit/assets/bsim4_analyzer_dc/nmos_vdid.png)
 
 横軸：ドレイン電圧 $V_d$  
 縦軸：ドレイン電流 $I_d$
@@ -142,7 +142,7 @@ python run_vdid.py
 
 ### PMOS：$V_d$–$I_d$ 特性
 
-<img src="https://samizo-aitl.github.io/SemiDevKit/assets/bsim4_analyzer_dc/pmos_vdid.png" width="80%">
+![PMOS Vd–Id](https://samizo-aitl.github.io/SemiDevKit/assets/bsim4_analyzer_dc/pmos_vdid.png)
 
 $I_{d,\mathrm{lin}}$ ・ $I_{d,\mathrm{sat}}$  の抽出や、  
 短チャネル効果の比較にも有効です。
