@@ -149,7 +149,7 @@ python run_cv.py
 
 ### ■ NMOS C–V（130nm, RT）
 
-<img src="https://samizo-aitl.github.io/SemiDevKit/assets/bsim4_analyzer_cv/nmos_cv.png" width="80%">
+![NMOS C-V](https://samizo-aitl.github.io/SemiDevKit/assets/bsim4_analyzer_cv/nmos_cv.png)
 
 - 蓄積 → 空乏 → 反転
 - U字型の $C_{gg}$–$V_g$ 特性
@@ -158,7 +158,7 @@ python run_cv.py
 
 ### ■ PMOS C–V（130nm, RT）
 
-<img src="https://samizo-aitl.github.io/SemiDevKit/assets/bsim4_analyzer_cv/pmos_cv.png" width="80%">
+![PMOS C-V](https://samizo-aitl.github.io/SemiDevKit/assets/bsim4_analyzer_cv/pmos_cv.png)
 
 - VDD → 0V の sweep
 - 実際の PMOS 動作と整合
